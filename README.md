@@ -95,3 +95,99 @@
 This script enhances vehicle interaction for RP servers, ensuring immersive and user-friendly functionality. 🚀
 
 [ FRANCAIS ]
+
+### 📋 Menu Principal :
+
+🎛️ **Menu de Contrôle du Véhicule** :  
+   - Accédez à un menu complet pour gérer les sièges, les portes et les lumières du véhicule.  
+   - Idéal pour une interaction immersive avec les véhicules dans un contexte RP.
+
+🪑 **Gestion des Sièges** :  
+   - **Changer de Siège** :  
+     - **Description** : Passez à n'importe quel siège disponible dans le véhicule.  
+     - **Fonctionnalités** :  
+       - Affiche les noms des sièges (par exemple, Siège Conducteur, Passager Avant Droite).  
+       - Identifie les sièges occupés et désactive leur sélection.  
+       - Barre de progression pour des délais réalistes en fonction du mouvement du véhicule.  
+   - **Sécurité du Conducteur** :  
+     - Vérifie si la ceinture de sécurité est attachée avant de permettre un changement de siège.
+
+🚪 **Gestion des Portes** :  
+   - **Ouvrir/Fermer les Portes** :  
+     - Options : Porte Avant Gauche, Porte Avant Droite, Porte Arrière Gauche, Porte Arrière Droite.  
+   - **Contrôles Spéciaux** :  
+     - Ouvrir/Fermer le capot et le coffre si le véhicule le permet.
+
+💡 **Gestion des Lumières** :  
+   - **Phares** :  
+     - Contrôlez les phares principaux et les pleins phares.  
+   - **Néons** :  
+     - Activez/Désactivez les lumières néons si elles sont disponibles sur le véhicule.
+
+---
+
+### 💡 Fonctionnalités :
+
+✍️ **Menus Interactifs** :  
+   - Intégré avec **OX Context** pour une navigation fluide et intuitive.  
+   - Sous-menus dédiés pour chaque catégorie de contrôle (Sièges, Portes, Lumières).
+
+🔗 **Dépendances** :  
+   - Utilise **ESX** pour les fonctionnalités principales et la localisation.  
+   - Nécessite **OX Lib** pour les menus contextuels et les notifications.
+
+📆 **Interactions Réalistes** :  
+   - Délais dynamiques pour les actions :  
+     - **10 secondes** pour changer de siège lorsque le véhicule est en mouvement.  
+     - **5 secondes** pour un véhicule à l'arrêt.  
+   - Barres de progression et animations pour une immersion accrue.
+
+🔒 **Vérification des Permissions** :  
+   - Empêche les actions si le joueur n'est pas dans un véhicule.  
+   - Assure un RP réaliste (exemple : pas d’actions si la ceinture est attachée).
+
+---
+
+### 🛠️ Détails Techniques :
+
+👥 **Interaction Joueur** :  
+   - Identifie le siège actuel du joueur et empêche de le sélectionner à nouveau.  
+   - Noms dynamiques des sièges pour un retour immersif.
+
+🌟 **Contrôles Avancés** :  
+   - Détection des néons pour afficher les options uniquement si disponibles.  
+   - Détection en temps réel de l’état des portes (ouvertes/fermées).
+
+📊 **Performance** :  
+   - Optimisé pour fonctionner à **0.00ms** en état de veille.  
+   - Conçu pour un impact minimal sur les performances du serveur.
+
+---
+
+### 🔔 Notifications et Retours :
+
+- Alertes claires pour :  
+  - Actions restreintes (exemple : ceinture attachée ou véhicule introuvable).  
+  - Actions réussies ou annulées (exemple : changement de siège, ouverture des portes).
+
+---
+
+### 🔗 Raccourcis Clavier :
+
+- **F4** : Ouvre le menu de contrôle du véhicule.  
+- **Personnalisable** : Les raccourcis peuvent être ajustés selon les besoins du serveur.
+
+---
+
+### 🤝 Support :
+
+📧 **Besoin d'aide ?** Contactez-moi directement sur Discord !  
+- **Pseudo** : Illama  
+- **Disponibilité** : Prêt à répondre à vos questions ou résoudre vos problèmes.
+
+💬 **Communauté** :  
+   - Rejoignez notre Discord pour des mises à jour, du support et des nouvelles fonctionnalités.
+
+---
+
+Ce script améliore considérablement l’interaction avec les véhicules sur les serveurs RP, tout en offrant des fonctionnalités immersives et faciles d’utilisation. 🚀
